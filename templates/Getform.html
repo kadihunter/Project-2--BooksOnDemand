@@ -24,15 +24,16 @@
 <!-- This html is to grab the book title name from the user, from here it calls the Google API to search for like worded book titles
 -->
 
-            <form method="POST" action="/send" role="form", name="bookinfo">
+            <form method="POST" action="/getbook" role="form", name="bookinfo">
                 <div class="form-group spacing midline">
                     <label for="inputName">Book Title</label>
                     <input type="text" class="form-control" id="inputName" name="bookName" placeholder="Name">
                 </div> 
                 <div class = "midline">
-
                     <input type="submit" value="submit" class="btn btn-default">
                 </div>
+                <!--- if empty show nothing-->
+                <!-- -->
         
 
 
